@@ -1,7 +1,8 @@
 import React from 'react';
-import { Formik } from 'formik';
-import { FormInput, Label, Button, FormField } from './AddContact.styled';
 import PropTypes from 'prop-types';
+import { Formik } from 'formik';
+
+import { FormInput, Label, Button, FormField } from './AddContact.styled';
 
 // export default class AddContact extends Component {
 //   state = {
@@ -85,7 +86,7 @@ export default function AddContact({ onSubmit }) {
             pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
             title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
             required
-            placeholder="Enter number"
+            placeholder="Enter number. For example: 098-084-68-40"
           />
         </Label>
         <Button type="submit"> Add new contact</Button>

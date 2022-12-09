@@ -1,7 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import { Label, Input } from 'components/AddContact/AddContact.styled';
 import { Wrapper } from './Filter.styled';
-import PropTypes from 'prop-types';
 
 export default function Filter({ onChange }) {
   return (

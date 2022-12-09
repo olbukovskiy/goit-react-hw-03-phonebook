@@ -1,6 +1,7 @@
 import React from 'react';
-import { ListItem, Number, Button, TextField } from './Contact.styled';
 import PropTypes from 'prop-types';
+
+import { ListItem, Number, Button, TextField } from './Contact.styled';
 
 export default function Contact({ id, name, number, onChangeResult }) {
   return (
